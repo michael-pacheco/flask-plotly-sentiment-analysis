@@ -1,0 +1,10 @@
+<!-- index.html -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<div id="pie" d3pie="0.2.1" style="margin: auto; text-align: center;">
+  <script>
+    var data = {{ graph_values|safe }};
+    layout = {{ layout|safe }};
+    Plotly.newPlot('pie', data, layout);
+  </script>
+</div>
