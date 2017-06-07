@@ -5,5 +5,5 @@ Creates a pie chart using Plotly, Flask and sentiment analysis off posts from /r
 
 <h2>Requirements</h2>
 <h3>Textblob</h3>
-pip3 install -U textblob
+pip3 install -U textblob<br>
 python3 -m textblob.download_corpora 
